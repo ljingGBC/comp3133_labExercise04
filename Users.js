@@ -32,7 +32,7 @@ const UserSchema = new mongoose.Schema({
     }
   },
 
-  web:{
+  website:{
     type: String,
     required: true,
     //Custom validation: only valid web URL address (http or https is valid)
@@ -42,7 +42,7 @@ const UserSchema = new mongoose.Schema({
     }
   },
 
-  zip:{
+  zipcode:{
     type: String,
     required: true,
     //Custom validation: format must be like 12345-1234 (DDDDD-DDDD, D = digit)
